@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Games/ChoquesDeCoche/Scenes/Test01.unity
+    guid: 45a57eacbb6b59c44b25c59e6ae240df
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: aa95ed79781be3f4383517367c4049cb,
       type: 2}

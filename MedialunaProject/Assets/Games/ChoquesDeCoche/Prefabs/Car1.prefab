@@ -41,8 +41,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24440.072
-    damper: 3910.4119
+    spring: 24440.074
+    damper: 3910.412
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.2862997
@@ -317,10 +317,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24777.521
-    damper: 3964.4036
+    spring: 24777.518
+    damper: 3964.4028
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.19620003
   m_ForceAppPointDistance: 1.2862997
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -540,8 +540,9 @@ GameObject:
   - component: {fileID: 5066383459728680411}
   - component: {fileID: -2415539231914983299}
   - component: {fileID: 4973285518984257997}
+  - component: {fileID: 8714264291398513463}
   m_Layer: 0
-  m_Name: carRoot
+  m_Name: Car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,6 +658,22 @@ MonoBehaviour:
   localPositionSensitivity: 0.01
   localRotationSensitivity: 0.01
   localScaleSensitivity: 0.01
+--- !u!114 &8714264291398513463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066383459728680408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27bedb28e02d744fb35a341b5b40f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  cameraMountPoint: {fileID: 0}
+  camera: {fileID: 5066383459382228765}
 --- !u!1 &5066383459810461001
 GameObject:
   m_ObjectHideFlags: 0

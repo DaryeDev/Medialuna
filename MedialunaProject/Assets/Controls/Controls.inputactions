@@ -36,6 +36,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Hold"
+                },
+                {
+                    "name": "Mirar",
+                    "type": "Value",
+                    "id": "d06da1b2-46bb-46e2-b68a-7da2c1be625a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Hold"
                 }
             ],
             "bindings": [
@@ -80,6 +88,17 @@
                     "processors": "",
                     "groups": "K&M",
                     "action": "Pal'lao(L)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a71bbc8f-05af-4d13-91b5-0a9f24e55c54",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mirar",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
